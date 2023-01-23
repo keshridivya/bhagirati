@@ -4,6 +4,9 @@
 <head>
     <?php require('include/head.php'); ?>
     <style>
+    /* header.header{
+        background: linear-gradient(to right, #9eb0cc, #d3dbe9);
+    } */
         /* .wrap-modal-slider {
             padding: 0 30px;
             opacity: 0;
@@ -218,14 +221,14 @@
 
                     <div class="carousel-inner">
                         <div class="carousel-item transbox active">
-                            <img src="assets/images/Website assets/Images/Hero Image.png" alt="first slide"
+                            <img src="assets/images/Website assets/Images/b13.jpg" alt="first slide"
                                 class='sliderImg1'>
                             <div class="carousel-caption d-md-block">
                                 <div class="row ">
                                     <div class="col-lg-5 col-md-5 col-12">
                                         <!--Hero Content start-->
                                         <div class="hero-content-2">
-                                            <h2>You see in Dreams! & We make it Happen</h2>
+                                            <h2 class='text-white'>You see in Dreams! & We make it Happen</h2>
                                         </div>
                                         <!--Hero Content end-->
                                     </div>

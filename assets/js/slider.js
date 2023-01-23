@@ -13,15 +13,6 @@ $(document).ready(function(){
     });
 });
 
-// jQuery(function($) {
-//     var path = window.location.href; 
-//     $('.main-menu-ul li').each(function() {
-//      if (this.href === path) {
-//       $(this).addClass('active');
-//      }
-//     });
-//    });
-
    jQuery(function($) {
     var path = window.location.href; 
     // because the 'href' property of the DOM element is the absolute path
@@ -30,4 +21,32 @@ $(document).ready(function(){
         $(this).parent('li').addClass('active');
       }
     });
+  });
+
+  $('#contact-form').validate({
+    rules:{
+      name:{
+        required:true,
+        maxlength:50,
+      },
+      phone:{
+        required:true,
+        minlength:10,
+        maxlength:10,
+      },
+      email:{
+        required:true,
+        email:true,
+      },
+      message:{
+        required:true,
+      },
+    },
+
+    messages:{
+      email:{
+        email:'Please enter valid email id. '
+      }
+    },
+    errorClass: "text-danger error",
   });

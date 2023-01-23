@@ -113,14 +113,11 @@
                                    <li><a href="projects.php"><span>PROJECTS</span></a>
                                    </li>
                                    <li><a href="services.php"><span>SERVICES</span></a>
-
                                    </li>
                                    <li class="position-static"><a href="contact.php"><span>CONTACT US</span></a>
-
                                    </li>
                                </ul>
                            </nav>
-
                        </div>
                        <!--Menu end-->
                    </div>

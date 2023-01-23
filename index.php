@@ -44,7 +44,7 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item transbox active">
-                            <img src="assets/images/Website assets/Images/Hero Image.png" alt="first slide"
+                            <img src="assets/images/Website assets/Images/b11.jpg" alt="first slide"
                                 class='sliderImg'>
                             <div class="carousel-caption d-md-block">
                                 <div class="row ">
@@ -52,8 +52,8 @@
 
                                         <!--Hero Content start-->
                                         <div class="hero-content-2">
-                                            <h2>Let Us Construct The Best Properties For You</h2>
-                                            <div><a href="portfolio-boxed-carousel.html" class="btn btn-blue">know More
+                                            <h2 class='text-white'>Let Us Construct The Best Properties For You</h2>
+                                            <div><a href="portfolio-boxed-carousel.html" class="btn btn-orange">know More
                                                     <!-- <i class="fa fa-chevron-right"></i> -->
                                                 </a></div>
 
@@ -64,8 +64,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item transbox active">
-                            <img src="assets/images/Website assets/Images/Hero Image.png" alt="first slide"
+                        <div class="carousel-item transbox">
+                            <img src="assets/images/Website assets/Images/b12.jpg" alt="first slide"
                                 class='sliderImg'>
                             <div class="carousel-caption d-md-block">
                                 <div class="row ">
@@ -73,8 +73,8 @@
 
                                         <!--Hero Content start-->
                                         <div class="hero-content-2">
-                                            <h2>Let Us Construct The Best Properties For You</h2>
-                                            <div><a href="portfolio-boxed-carousel.html" class="btn btn-blue">know More
+                                            <h2 class='text-white'>Let Us Construct The Best Properties For You</h2>
+                                            <div><a href="portfolio-boxed-carousel.html" class="btn btn-orange">know More
                                                     <!-- <i class="fa fa-chevron-right"></i> -->
                                                 </a></div>
                                         </div>
@@ -300,7 +300,6 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center blue-color mb-30 mb-md-15 mb-md-10 mb-sm-10 mb-xs-0">
-                        <span>Testimonials</span>
                         <h1>What Clients Says About Us</h1>
                     </div>
                     <div class="testimonial-border"></div>

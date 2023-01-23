@@ -76,26 +76,27 @@
                             <div class="content max-width mb-10">
                                 <h2 class="contact-title">Get in Touch</h2>
                             </div>
-                            <form id="contact-form" action="assets/php/mail.php" method="post">
+                            
                                 <div class="row">
                                     <div class="col-12 col-md-6 ">
+                                    <form id="contact-form" action="assets/php/mail.php" method="post">
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="contact-form-style mb-20">
-                                                    <input name="lastname" placeholder="Your Name" class='form-control'
+                                                    <input name="name" placeholder="Your Name" class='form-control'
                                                         type="text">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="contact-form-style mb-20">
-                                                    <input name="tel" placeholder="Phone Number " class='form-control'
-                                                        type="email">
+                                                    <input name="phone" placeholder="Phone Number " class='form-control'
+                                                        type="tel">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="contact-form-style mb-20">
                                                     <input name="email" placeholder="Email id" class='form-control'
-                                                        type="text">
+                                                        type="email">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
@@ -110,6 +111,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        </form>
                                     </div>
                                     <div class="col-12 col-md-6 info" >
                                         <h4 class="title"><span class="text-blue">Info</span></h4>
@@ -153,7 +155,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </form>
+                            
                             <p class="form-messege"></p>
                         </div>
                     </div>

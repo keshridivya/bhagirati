@@ -3,6 +3,11 @@
 
 <head>
     <?php require('include/head.php'); ?>
+    <style>
+        /* header.header{
+            background: linear-gradient(to right, #7b98b7, #dae1ed,#6e7c89);
+        } */
+    </style>
 </head>
 
 <body>
@@ -19,14 +24,14 @@
 
                     <div class="carousel-inner">
                         <div class="carousel-item transbox active">
-                            <img src="assets/images/Website assets/Images/About hero image.png" alt="first slide"
+                            <img src="assets/images/Website assets/Images/b11.jpg" alt="first slide"
                                 class='sliderImg1'>
                             <div class="carousel-caption d-md-block">
                                 <div class="row ">
                                     <div class="col-lg-7 col-md-7 col-12">
                                         <!--Hero Content start-->
                                         <div class="hero-content-2">
-                                            <h2>We Design & Construct High Quality
+                                            <h2 class='text-white'>We Design & Construct High Quality
                                                 Residential And Commercial
                                                 Properties</h2>
                                         </div>

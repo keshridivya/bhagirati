@@ -5,9 +5,6 @@
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
             $name = str_replace(array("\r","\n"),array(" "," "),$name);
-
-        // $last_name = strip_tags(trim($_POST["lastname"]));
-        //     $last_name = str_replace(array("\r","\n"),array(" "," "),$last_name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $phone = strip_tags(trim($_POST["phone"]));
         $message = trim($_POST["message"]);
@@ -21,8 +18,7 @@
         }
 
         // Set the recipient email address.
-        // FIXME: Update this to your desired email address.
-        $recipient = "dkeshari094@gmail.com";
+        $recipient = "info@bhagirati.com";
 
         // Set the email subject.
         $subject = "New contact from $name";
@@ -34,10 +30,14 @@
         $email_content .= "Message:\n$message\n";
 
         // Build the email headers.
-        $email_headers = "From: $name <$email>";
+        $email_headers .= 'MIME-Version: 1.0' . "\n";
+        $email_headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+        $email_headers = "From: $name <$email>" ;
+        $email_headers='X-Mailer: php/'.phpversion();
+        // $returnpath = '-f dkeshari094@gmail.com';
 
         // Send the email.
-        if (mail($recipient, $subject, $email_content, $email_headers)) {
+        if (mail($recipient, $subject, $email_content, $email_headers,"-fwebmaster@{$_SERVER['SERVER_NAME']}")) {
             // Set a 200 (okay) response code.
             http_response_code(200);
             echo "Thank You! Your message has been sent.";

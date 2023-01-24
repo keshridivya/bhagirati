@@ -4,9 +4,13 @@
 <head>
     <?php require('include/head.php'); ?>
     <style>
-        /* header.header{
-            background: linear-gradient(to right, #7b98b7, #dae1ed,#6e7c89);
-        } */
+               .transbox:before{
+            content:'';
+            position:absolute;
+            width:100%;
+            height:100%;
+            background: linear-gradient(to right, #254b70, transparent,transparent);
+        }
     </style>
 </head>
 
@@ -58,10 +62,11 @@
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
                                 <div class="content2">
 
-                                    <div class="row">
+                                    <div class="row ">
                                         <div class="col-12 tab-image4"  data-aos="fade-up">
                                             <img src="assets/images/services/Civil-1.jpg" alt="">
                                         </div>
+                                        <div class='carslider d-flex'>
                                         <div class="col-4 tab-image3 pt-5 pb-5 pr-5"  data-aos="fade-up" data-aos-delay='100'>
                                             <img src="assets/images/services/Civil-1.jpg" alt=""
                                                 class='tab-image-slider1 image-active'>
@@ -73,6 +78,7 @@
                                         <div class="col-4 tab-image3  pt-5 pb-5 pl-5"  data-aos="fade-up" data-aos-delay='500'>
                                             <img src="assets/images/services/Civil-3.jpg" alt=""
                                                 class='tab-image-slider1'>
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
@@ -136,7 +142,6 @@
                                                                 src="assets/images/services/Waterproofing.svg" alt="">
 
                                                         </div>
-
                                                     </div>
                                                     <div class="col-12 pt-30 text-right pr-50" >
                                                         <p>We build sturdy and environmental friendly
@@ -145,8 +150,6 @@
                                                             enthusiastic and happy in their surroundings.</p>
                                                     </div>
                                                 </div>
-
-
                                             </li>
                                         </ul>
                                     </div>
@@ -161,21 +164,23 @@
                                 <div class="content2">
 
                                     <div class="row">
-                                        <div class="col-12 tab-image4"  data-aos="fade-up" >
+                                        <div class="col-12 tab-image6"  data-aos="fade-up" >
                                             <img src="assets/images/services/Waterproofing1.jpg" alt="">
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5"  data-aos="fade-up" data-aos-delay='100'>
+                                      <div class="carslider2 d-flex">
+                                      <div class="col-4 tab-image5 pt-5 pb-5 pr-5"  data-aos="fade-up" data-aos-delay='100'>
                                             <img src="assets/images/services/Waterproofing1.jpg" alt=""
-                                                class='tab-image-slider1 image-active'>
+                                                class='tab-image-slider5 image-active'>
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5"  data-aos="fade-up" data-aos-delay='300'>
+                                        <div class="col-4 tab-image5 pt-5 pb-5 pl-5 pr-5"  data-aos="fade-up" data-aos-delay='300'>
                                             <img src="assets/images/services/Waterproofing2.jpg" alt=""
-                                                class='tab-image-slider1'>
+                                                class='tab-image-slider5'>
                                         </div>
-                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5"  data-aos="fade-up" data-aos-delay='500'>
+                                        <div class="col-4 tab-image5  pt-5 pb-5 pl-5"  data-aos="fade-up" data-aos-delay='500'>
                                             <img src="assets/images/services/Waterproofing3.jpg" alt=""
-                                                class='tab-image-slider1'>
+                                                class='tab-image-slider5'>
                                         </div>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
@@ -427,7 +432,7 @@
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
                                 <div class="content2">
 
-                                    <div class="row">
+                                    <div class="row" id='slider5'>
                                         <div class="col-12 tab-image4" data-aos="fade-up">
                                             <img src="assets/images/services/Turnkey1.jpg" alt="">
                                         </div>
@@ -464,7 +469,7 @@
                                     <p>Bhagirathi Construction Company is a
                                         trusted name in the field of construction
                                         and aims to provide high quality services</p>
-                                        <div><a href="" class="btn btn-orange">See More</a></div>
+                                        <div><a href="projects.php" class="btn btn-orange">See More</a></div>
                             </div>
                             
                         </div>

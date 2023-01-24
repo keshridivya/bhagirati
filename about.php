@@ -3,11 +3,11 @@
 
 <head>
     <?php require('include/head.php'); ?>
-<style>
-    header.header {
-    background: rgba(226,234,245,255);
-}
-</style>
+    <style>
+        header.header {
+            background: rgba(226, 234, 245, 255);
+        }
+    </style>
 </head>
 
 <body>
@@ -32,7 +32,6 @@
                             <div class="carousel-caption d-md-block">
                                 <div class="row ">
                                     <div class="col-lg-5 col-md-5 col-12 col-sm-12">
-
                                         <!--Hero Content start-->
                                         <div class="hero-content-2">
                                             <h2>We Are The Trusted Name In The Field Of Construction
@@ -68,10 +67,10 @@
                                         <img src="assets/images/main_image/Images/service2.png" alt="">
                                     </div>
                                     <div class="image-style image-style1" data-aos="fade-up-right">
-                                        <img src="assets/images/main_image/Images/service3.png.png" alt="">
+                                        <img src="assets/images/main_image/Images/service3.png" alt="">
                                     </div>
                                     <div class="image-style " data-aos="fade-up-left">
-                                        <img src="assets/images/main_image/Images/service4.png.png" alt="">
+                                        <img src="assets/images/main_image/Images/service4.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -80,8 +79,7 @@
 
                     <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40">
                         <div class="feature">
-                            <div class=" pl-0 pr-0"  data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                                data-aos-duration="4000">
+                            <div class=" pl-0 pr-0" data-aos="fade-left">
                                 <!-- <div class="icon"><i class="pe-7s-paint"></i></div> -->
                                 <div class="content ">
                                     <h2>About us</h2>
@@ -102,7 +100,6 @@
                                     <p>We provide safe working conditions for our employees and
                                         all statutory conditions are strictly followed on all
                                         our construction sites.</p>
-
                                 </div>
                             </div>
                         </div>
@@ -114,30 +111,54 @@
         <!--about-->
 
         <!--counter-->
-        <div class="funfact-section section pb-90 pb-lg-75 pb-md-65 pb-sm-65 pb-xs-105">
+        <div class="conebrick-parallax-section section bg-gray bg-image " data-aos="fade-up"
+            data-bg="assets/images/main_image/parallaxbg4.webp">
             <div class="container">
-                <div class="content text-center max-width mb-10">
-                    <h2>What we have achieved?</h2>
+                <div class="row">
+
+                    <div class="col-12">
+                        <div class="parallax-content">
+                            <div id="video-gallery">
+                                <h3 class='text-white'>What we have achieved?</h3>
+                            </div>
+                            <div class="parallax-title">
+                                <h3>Provide you the <span>highest quality</span> work that meets your expectation.</h3>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="row mt-90">
-                    <div class="single-fact fact-style-2 col-md-4 col-sm-6 col-12 mb-50">
-                        <div class="counter-back bg-dark ">
-                            <h2 class='text-white count-head'><span class="counter">20</span>+</h2>
-                            <h3 class='text-white'>Years Experience</h3>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <!--Conebrick Parallax Section End-->
 
-                    <div class="single-fact fact-style-2 col-md-4 col-sm-6 col-12 mb-50">
-                        <div class="counter-back bg-dark ">
-                            <h2 class='text-white count-head'><span class="counter">30</span>+</h2>
-                            <h3 class='text-white'>Award Wins </h3>
-                        </div>
-                    </div>
+        <!--Funfact section start-->
+        <div class="funfact-section section" data-aos="fade-up">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="funfact-wrap">
+                            <div class="row">
+                                <div class="single-fact col-md-3 col-sm-6 col-12 mb-30">
+                                    <h1><span class="counter">13</span></h1>
+                                    <h4>Years Experience</h4>
+                                </div>
 
-                    <div class="single-fact fact-style-2 col-md-4 col-sm-6 col-12 mb-50">
-                        <div class="counter-back bg-dark ">
-                            <h2 class='text-white count-head'><span class="counter">500</span>+</h2>
-                            <h3 class='text-white'>Happy Customers</h3>
+                                <div class="single-fact col-md-3 col-sm-6 col-12 mb-30">
+                                    <h1><span class="counter">800</span>+</h1>
+                                    <h4>Project Completed</h4>
+                                </div>
+
+                                <div class="single-fact col-md-3 col-sm-6 col-12 mb-30">
+                                    <h1><span class="counter">20</span></h1>
+                                    <h4>Award Wins</h4>
+                                </div>
+
+                                <div class="single-fact col-md-3 col-sm-6 col-12 mb-30">
+                                    <h1><span class="counter">1000</span>+</h1>
+                                    <h4>Happy Customers</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -147,11 +168,11 @@
 
         <!--why us-->
         <div
-            class="feature-section section pt-10 pt-lg-10 pt-md-10 pt-sm-10 pt-xs-10 pb-35 pb-lg-15 pb-md-5 pb-sm-5 pb-xs-5">
+            class="feature-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-45 pb-80 pb-lg-60 pb-md-25 pb-sm-40 pb-xs-50">
             <div class="container">
 
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40"  data-aos="zoom-out-right">
+                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40" data-aos="fade-right">
                         <div class="feature">
                             <div class="feature-inner pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
@@ -165,7 +186,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40"  data-aos="zoom-out-left">
+                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40"data-aos="fade-left">
                         <div class="feature  ml-20">
                             <div class=" pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-paint"></i></div> -->
@@ -207,11 +228,14 @@
 
                     <!--Brand Slider start-->
                     <div class="brand-slider section">
-                        <div class="brand col"  data-aos="fade-up" data-aos-delay='100'><img src="assets/images/main_image/images/wcg_logo_3.png" alt=""
+                        <div class="brand col" data-aos="fade-up" data-aos-delay='100'><img
+                                src="assets/images/main_image/images/wcg_logo_3.png" alt=""
                                 style="width: 130px !important;"></div>
-                        <div class="brand col"  data-aos="fade-up" data-aos-delay='300'><img src="assets/images/main_image/images/wcg_logo_3.png" alt=""
+                        <div class="brand col" data-aos="fade-up" data-aos-delay='300'><img
+                                src="assets/images/main_image/images/wcg_logo_3.png" alt=""
                                 style="width: 130px !important;"></div>
-                        <div class="brand col"  data-aos="fade-up" data-aos-delay='500'><img src="assets/images/main_image/images/wcg_logo_3.png" alt=""
+                        <div class="brand col" data-aos="fade-up" data-aos-delay='500'><img
+                                src="assets/images/main_image/images/wcg_logo_3.png" alt=""
                                 style="width: 130px !important;"></div>
                     </div>
                     <!--Brand Slider end-->
@@ -222,96 +246,100 @@
         <!--Brand section end-->
 
 
-           <!--Testimonial section start-->
-    <div class="testimonial-section section pb-80 pb-lg-60 pb-md-25 pb-sm-40 pb-xs-50"   data-aos="fade-up">
-        <div class="container">
-           
-            <div class="row">
-               
-            <div class="content text-center max-width mb-10">
+        <!--Testimonial section start-->
+        <div class="testimonial-section section pb-80 pb-lg-60 pb-md-25 pb-sm-40 pb-xs-50" data-aos="fade-up">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="content text-center max-width mb-10">
                         <h2>Testimonials</h2>
                     </div>
-                
-                <div class="col-lg-12 col-md-12 mt-20">
-                   
-                    <div class="testimonial-slider-content section red-color">
 
-                        <div class="testimonial">
-                            <div class="testimonial-inner red-color">
-                                <div class="testimonial-description">
-                                    <p>“Conebrick's service is unbelievable, I can trust in them 100% because of this professional team's attitude”</p>
-                                </div>
-                                <div class="testimonial-author">
-                                    <div class="author-thumb">
-                                        <img src="assets/images/author/author-1.jpg" alt="">
+                    <div class="col-lg-12 col-md-12 mt-20">
+
+                        <div class="testimonial-slider-content section red-color">
+
+                            <div class="testimonial">
+                                <div class="testimonial-inner red-color">
+                                    <div class="testimonial-description">
+                                        <p>“Conebrick's service is unbelievable, I can trust in them 100% because of
+                                            this professional team's attitude”</p>
                                     </div>
-                                    <div class="author-info">
-                                        <h4>Frankie Kao</h4>
-                                        <span>CEO</span>
+                                    <div class="testimonial-author">
+                                        <div class="author-thumb">
+                                            <img src="assets/images/author/author-1.jpg" alt="">
+                                        </div>
+                                        <div class="author-info">
+                                            <h4>Frankie Kao</h4>
+                                            <span>CEO</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="testimonial">
-                            <div class="testimonial-inner red-color">
-                                <div class="testimonial-description">
-                                    <p>“I have searched for a month to choose a company for renovating my house, and, I found Conebrick. Nice choice!”</p>
-                                </div>
-                                <div class="testimonial-author">
-                                    <div class="author-thumb">
-                                        <img src="assets/images/author/author-2.jpg" alt="">
+                            <div class="testimonial">
+                                <div class="testimonial-inner red-color">
+                                    <div class="testimonial-description">
+                                        <p>“I have searched for a month to choose a company for renovating my house,
+                                            and, I found Conebrick. Nice choice!”</p>
                                     </div>
-                                    <div class="author-info">
-                                        <h4>Dean Casie</h4>
-                                        <span>Apple, Marketer</span>
+                                    <div class="testimonial-author">
+                                        <div class="author-thumb">
+                                            <img src="assets/images/author/author-2.jpg" alt="">
+                                        </div>
+                                        <div class="author-info">
+                                            <h4>Dean Casie</h4>
+                                            <span>Apple, Marketer</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="testimonial">
-                            <div class="testimonial-inner red-color">
-                                <div class="testimonial-description">
-                                    <p>“I'm in love with this team. They give us all solutions for any issue I've met. They are so patient with customers' problems”</p>
-                                </div>
-                                <div class="testimonial-author">
-                                    <div class="author-thumb">
-                                        <img src="assets/images/author/author-3.jpg" alt="">
+                            <div class="testimonial">
+                                <div class="testimonial-inner red-color">
+                                    <div class="testimonial-description">
+                                        <p>“I'm in love with this team. They give us all solutions for any issue I've
+                                            met. They are so patient with customers' problems”</p>
                                     </div>
-                                    <div class="author-info">
-                                        <h4>Blanche Fields</h4>
-                                        <span>Apple, Maketing</span>
+                                    <div class="testimonial-author">
+                                        <div class="author-thumb">
+                                            <img src="assets/images/author/author-3.jpg" alt="">
+                                        </div>
+                                        <div class="author-info">
+                                            <h4>Blanche Fields</h4>
+                                            <span>Apple, Maketing</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="testimonial">
-                            <div class="testimonial-inner red-color">
-                                <div class="testimonial-description">
-                                    <p>“I don't have much experiences with construction case. Fortunately, I found Conebrick. Highly recommend.”</p>
-                                </div>
-                                <div class="testimonial-author">
-                                    <div class="author-thumb">
-                                        <img src="assets/images/author/author-4.jpg" alt="">
+                            <div class="testimonial">
+                                <div class="testimonial-inner red-color">
+                                    <div class="testimonial-description">
+                                        <p>“I don't have much experiences with construction case. Fortunately, I found
+                                            Conebrick. Highly recommend.”</p>
                                     </div>
-                                    <div class="author-info">
-                                        <h4>Emma Watson</h4>
-                                        <span>Marketing</span>
+                                    <div class="testimonial-author">
+                                        <div class="author-thumb">
+                                            <img src="assets/images/author/author-4.jpg" alt="">
+                                        </div>
+                                        <div class="author-info">
+                                            <h4>Emma Watson</h4>
+                                            <span>Marketing</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
 
                     </div>
-                    
                 </div>
+
             </div>
-            
         </div>
-    </div>
-    <!--Testimonial section end-->
+        <!--Testimonial section end-->
 
 
 

@@ -4,9 +4,13 @@
 <head>
     <?php require('include/head.php'); ?>
     <style>
-    /* header.header{
-        background: linear-gradient(to right, #9eb0cc, #d3dbe9);
-    } */
+            .transbox:before{
+            content:'';
+            position:absolute;
+            width:100%;
+            height:100%;
+            background: linear-gradient(to right, #254b70, transparent,transparent);
+        }
         /* .wrap-modal-slider {
             padding: 0 30px;
             opacity: 0;
@@ -250,33 +254,33 @@
                 <div class="tabUl">
                     <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#home"  data-aos="fade-up" data-aos-delay='100'
+                            <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#home"  data-aos="fade-up"
                                 type="button" role="tab" aria-controls="nav-all" aria-selected="true"
                                 style='border-top-left-radius:5px; border-bottom-left-radius:5px;'>Residential</button>
                         </li>
                         <li class="nav-item">
                             <button class="nav-link" id="nav-trending-tab" data-bs-toggle="tab"
-                                data-bs-target="#profile-recong" type="button" role="tab" aria-controls="profile-recong"  data-aos="fade-up" data-aos-delay='300'
+                                data-bs-target="#profile-recong" type="button" role="tab" aria-controls="profile-recong"  data-aos="fade-up"
                                 aria-selected="false">Commercial</button>
                         </li>
                         <li class="nav-item">
                             <button class="nav-link" id="nav-trending-tab" data-bs-toggle="tab"
                                 data-bs-target="#contact-kjjk" type="button" role="tab" aria-controls="profile-recong"
-                                aria-selected="false"  data-aos="fade-up" data-aos-delay='700'
+                                aria-selected="false"  data-aos="fade-up" 
                                 style='border-top-right-radius:5px; border-bottom-right-radius:5px;'>recommand</button>
                         </li>
                     </ul>
                 </div>
-                <div class="tab-content" id="myTabContent" data-aos="fade-up" data-aos-delay='700'>
+                <div class="tab-content" id="myTabContent" data-aos="fade-up" >
                     <div class="content ">
                         <h1>Our Residential Projects</h1>
                     </div>
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="nav-all-tab">
                         <div class="your-class">
-                            <div><img src="assets/images/main_image/Images/service1.png" alt=""></div>
-                            <div><img src="assets/images/main_image/Images/service1.png" alt=""></div>
-                            <div><img src="assets/images/main_image/Images/service1.png" alt=""></div>
-                            <div><img src="assets/images/main_image/Images/service1.png" alt=""></div>
+                            <div><img src="assets/images/main_image/Images/service1.png" alt="" class='img1 image-active' data-image1='assets/images/main_image/Images/service1.png' data-image2='assets/images/main_image/Images/service1.png' data-image3='assets/images/main_image/Images/service1.png' data-image4='assets/images/main_image/Images/service1.png' data-map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.190660262246!2d73.00543831437719!3d19.099289956204426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x82cd5d813bda0f8a!2zMTnCsDA1JzUyLjQiTiA3M8KwMDAnMTQuMyJF!5e0!3m2!1sen!2sin!4v1674280171886!5m2!1sen!2sin' data-possession='Under Construction' data-years='16 Years'></div>
+                            <div><img src="assets/images/main_image/Images/service2.png" alt="" class='img1 ' data-image1='assets/images/main_image/Images/service2.png' data-image2='assets/images/main_image/Images/service2.png' data-image3='assets/images/main_image/Images/service2.png' data-image4='assets/images/main_image/Images/service2.png' data-map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.190660262246!2d73.00543831437719!3d19.099289956204426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x82cd5d813bda0f8a!2zMTnCsDA1JzUyLjQiTiA3M8KwMDAnMTQuMyJF!5e0!3m2!1sen!2sin!4v1674280171886!5m2!1sen!2sin' data-possession='Under Construction' data-years='16 Years'></div>
+                            <div><img src="assets/images/main_image/Images/service3.png" alt="" class='img1 ' data-image1='assets/images/main_image/Images/service3.png' data-image2='assets/images/main_image/Images/service3.png' data-image3='assets/images/main_image/Images/service3.png' data-image4='assets/images/main_image/Images/service3.png' data-map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.190660262246!2d73.00543831437719!3d19.099289956204426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x82cd5d813bda0f8a!2zMTnCsDA1JzUyLjQiTiA3M8KwMDAnMTQuMyJF!5e0!3m2!1sen!2sin!4v1674280171886!5m2!1sen!2sin' data-possession='Under Construction' data-years='16 Years'></div>
+                            <div><img src="assets/images/main_image/Images/service4.png" alt="" class='img1 ' data-image1='assets/images/main_image/Images/service4.png' data-image2='assets/images/main_image/Images/service4.png' data-image3='assets/images/main_image/Images/service4.png' data-image4='assets/images/main_image/Images/service4.png' data-map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.190660262246!2d73.00543831437719!3d19.099289956204426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x82cd5d813bda0f8a!2zMTnCsDA1JzUyLjQiTiA3M8KwMDAnMTQuMyJF!5e0!3m2!1sen!2sin!4v1674280171886!5m2!1sen!2sin' data-possession='Under Construction' data-years='16 Years'></div>
                             <div><img src="assets/images/main_image/Images/service1.png" alt=""></div>
                             <div><img src="assets/images/main_image/Images/service1.png" alt=""></div>
                         </div>
@@ -329,16 +333,15 @@
                             <div class=" pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
                                 <div class="content2">
-                                   
-                                    <div class="row">
+                                    <div class="row" >
                                         <div class="col-8 tab-image1">
-                                            <img src="assets/images/main_image/Images/service1.png" alt="">
+                                            <img src="assets/images/main_image/Images/service1.png" alt="" class='image_1'>
                                         </div>
-                                        <div class="col-4 tab-image2">
-                                            <img src="assets/images/main_image/Images/service1.png" alt="" class='tab-image-slider image-active'>
-                                            <img src="assets/images/main_image/Images/service2.png" alt="" class='tab-image-slider'>
-                                            <img src="assets/images/main_image/Images/service3.png" alt="" class='tab-image-slider'>
-                                            <img src="assets/images/main_image/Images/service1.png" alt="" class='tab-image-slider'>
+                                        <div class="col-4 tab-image2 ">
+                                            <img src="assets/images/main_image/Images/service1.png" alt="" class='tab-image-slider image-active image_1'>
+                                            <img src="assets/images/main_image/Images/service1.png" alt="" class='tab-image-slider image_2'>
+                                            <img src="assets/images/main_image/Images/service1.png" alt="" class='tab-image-slider image_3'>
+                                            <img src="assets/images/main_image/Images/service1.png" alt="" class='tab-image-slider image_4'>
                                         </div>
                                     </div>
                                 </div>
@@ -357,12 +360,12 @@
                                                 <nav>
                                                     <div class="nav nav-tabs justify-content-center " id="course-tab"
                                                         role="tablist">
-                                                        <button class="nav-link active table_list home-cat flex-a"
+                                                        <button class="nav-link table_list home-cat flex-a"
                                                             id="about-tab" data-bs-toggle="tab" data-bs-target="#about"
                                                             type="button" role="tab" aria-controls="about"
                                                             aria-selected="true">About</button>
 
-                                                        <button class="nav-link table_list" id="overview-tab"
+                                                        <button class="nav-link active table_list" id="overview-tab"
                                                             data-bs-toggle="tab" data-bs-target="#overview"
                                                             type="button" role="tab" aria-controls="overview"
                                                             aria-selected="false">Overview</button>
@@ -381,7 +384,7 @@
                                     <div class="row">
                                         <div class="col-xxl-12">
                                             <div class="tab-content course__tab-content" id="course-tabContent">
-                                                <div class="tab-pane fade show active" id="about" role="tabpanel"
+                                                <div class="tab-pane fade " id="about" role="tabpanel"
                                                     aria-labelledby="about-tab">
                                                     <div class="course__tab-wrapper">
                                                         <div class="row">
@@ -419,18 +422,18 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="tab-pane fade" id="overview" role="tabpanel"
+                                                <div class="tab-pane fade show active" id="overview" role="tabpanel"
                                                     aria-labelledby="overview-tab">
                                                     <div class="course__tab-wrapper">
                                                         <div class="row">
                                                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                                                 <div class='mb-15'>
                                                                     <p>Possession Status:<br> <span
-                                                                            class="text-black">Ready to move</span></p>
+                                                                            class="text-black posses">Ready to move</span></p>
                                                                 </div>
                                                                 <div class='mb-15'>
                                                                     <p>Age of Construction:<br> <span
-                                                                            class="text-black">3 Years</span></p>
+                                                                            class="text-black years">3 Years</span></p>
                                                                 </div>
                                                                 <div class='mb-15'>
                                                                     <p>Road:<br> <span class="text-black">Eastern
@@ -519,7 +522,7 @@
                 </div>
        <div class="google-map-area section">
             <div class="ht-gmap3" id="htmap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.190660262246!2d73.00543831437719!3d19.099289956204426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x82cd5d813bda0f8a!2zMTnCsDA1JzUyLjQiTiA3M8KwMDAnMTQuMyJF!5e0!3m2!1sen!2sin!4v1674280171886!5m2!1sen!2sin" class='map-iframe' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.190660262246!2d73.00543831437719!3d19.099289956204426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x82cd5d813bda0f8a!2zMTnCsDA1JzUyLjQiTiA3M8KwMDAnMTQuMyJF!5e0!3m2!1sen!2sin!4v1674280171886!5m2!1sen!2sin" class='map-iframe' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id='iframemap'></iframe>
             </div>
         </div>
        </div>

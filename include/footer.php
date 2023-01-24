@@ -2,7 +2,7 @@
 
     <!--Footer Top start-->
     <div
-        class="footer-top section bg-gray pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-20 pb-lg-20 pb-md-20 pb-sm-10 pb-xs-3"  data-aos="fade-up">
+        class="footer-top section bg-gray pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-20 pb-lg-20 pb-md-20 pb-sm-10 pb-xs-3" >
         <div class="container">
             <div class="row">
 

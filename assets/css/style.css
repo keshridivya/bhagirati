@@ -3385,8 +3385,8 @@ ul.header-info li .inner .content > .text-lev2 {
 /*  05. Parallax CSS
 /*----------------------------------------*/
 .conebrick-parallax-section {
-  padding-top: 100px;
-  padding-bottom: 160px;
+  padding-top: 50px;
+  padding-bottom: 100px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3567,13 +3567,13 @@ ul.header-info li .inner .content > .text-lev2 {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #1b1f2d;
+  background-color: #0a3e72;
   opacity: 0.7;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
   .conebrick-parallax-section {
-    padding-top: 80px;
-    padding-bottom: 140px;
+    padding-top: 50px;
+    padding-bottom: 100px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3621,7 +3621,7 @@ ul.header-info li .inner .content > .text-lev2 {
   }
 }
 .parallax-content .parallax-title h3 span {
-  color: #ff5b14;
+  color: #ff5e15;
 }
 
 /*----------------------------------------*/
@@ -4022,11 +4022,11 @@ ul.header-info li .inner .content > .text-lev2 {
 /*----------------------------------------*/
 /*-- Funfact --*/
 .funfact-wrap {
-  background-color: #ff5b14;
+  background-color: #ff5e15;
   padding-top: 45px;
   padding-bottom: 5px;
   border-radius: 5px;
-  margin-top: -60px;
+  margin-top: -64px;
 }
 .funfact-wrap.funfact-wrap-4 {
   margin-top: 0px;

@@ -3,6 +3,15 @@
 
 <head>
     <?php require('include/head.php'); ?>
+    <style>
+        .transbox:before{
+            content:'';
+            position:absolute;
+            width:100%;
+            height:100%;
+            background: linear-gradient(to right, #254b70, transparent,transparent);
+        }
+    </style>
 
 </head>
 
@@ -11,25 +20,6 @@
     <div id="main-wrapper">
 
         <?php include('include/header.php'); ?>
-
-        <!-- main-search start -->
-        <!-- <div class="main-search-active">
-            <div class="sidebar-search-icon">
-                <button class="search-close"><i class="pe-7s-close"></i></button>
-            </div>
-            <div class="sidebar-search-input">
-                <form action="#">
-                    <div class="form-search">
-                        <input id="search" class="input-text" value="" placeholder="" type="search">
-                        <button>
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </div>
-                </form>
-                <p class="form-description">Hit enter to search or ESC to close</p>
-            </div>
-        </div> -->
-        <!-- main-search start -->
 
         <!--slider section start-->
         <div class="hero-section section position-relative">
@@ -51,8 +41,8 @@
 
                                         <!--Hero Content start-->
                                         <div class="hero-content-2">
-                                            <h2 class='text-white'>Let Us Construct The Best Properties For You</h2>
-                                            <div><a href="portfolio-boxed-carousel.html" class="btn btn-orange">know
+                                            <h2 class='text-white'  data-aos="fade-right">Let Us Construct The Best Properties For You</h2>
+                                            <div  data-aos="fade-left"><a href="projects.php" class="btn btn-orange">know
                                                     More
                                                     <!-- <i class="fa fa-chevron-right"></i> -->
                                                 </a></div>
@@ -72,8 +62,8 @@
 
                                         <!--Hero Content start-->
                                         <div class="hero-content-2">
-                                            <h2 class='text-white'>Let Us Construct The Best Properties For You</h2>
-                                            <div><a href="portfolio-boxed-carousel.html" class="btn btn-orange">know
+                                            <h2 class='text-white'  data-aos="fade-right">Let Us Construct The Best Properties For You</h2>
+                                            <div  data-aos="fade-left"><a href="projects.php" class="btn btn-orange">know
                                                     More
                                                     <!-- <i class="fa fa-chevron-right"></i> -->
                                                 </a></div>
@@ -109,10 +99,10 @@
                                         <img src="assets/images/main_image/Images/service2.png" alt="">
                                     </div>
                                     <div class="image-style image-style1" data-aos="fade-up-right">
-                                        <img src="assets/images/main_image/Images/service3.png.png" alt="">
+                                        <img src="assets/images/main_image/Images/service3.png" alt="">
                                     </div>
-                                    <div class="image-style " data-aos="fade-up-left">
-                                        <img src="assets/images/main_image/Images/service4.png.png" alt="">
+                                    <div class="image-style" data-aos="fade-up-left">
+                                        <img src="assets/images/main_image/Images/service4.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -121,12 +111,11 @@
 
                     <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40">
                         <div class="feature">
-                            <div class=" pl-0 pr-0" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                                data-aos-duration="4000">
+                            <div class=" pl-0 pr-0" >
                                 <!-- <div class="icon"><i class="pe-7s-paint"></i></div> -->
                                 <div class="content ">
-                                    <h2>Our Services</h2>
-                                    <p>Bhagirathi Construction Aims At Providing
+                                    <h2 data-aos="fade-left">Our Services</h2>
+                                    <p data-aos="fade-left">Bhagirathi Construction Aims At Providing
                                         Our Expertise By Designing And Constructing
                                         High Quality Residential & Commercial Properties</p>
                                     <div class="row mb-30">
@@ -134,21 +123,21 @@
                                             <!--Single Address Start-->
                                             <div class="single-address mb-30">
                                                 <ul>
-                                                    <li class="mb-30">
+                                                    <li class="mb-30" data-aos="fade-up">
                                                         <div class="icon-style"><span><img
                                                                     src="assets/images/main_image/svg/Civil.svg"
                                                                     alt=""></span></div>
                                                         <p class="para-style">Civil Structural
                                                             Construction</p>
                                                     </li>
-                                                    <li class="mb-30">
+                                                    <li class="mb-30" data-aos="fade-up">
                                                         <div class="icon-style"><span><img
                                                                     src="assets/images/main_image/svg/Waterproofing.svg"
                                                                     alt=""></span></div>
                                                         <p class="para-style">Waterproofing
                                                             & Insulation Works</p>
                                                     </li>
-                                                    <li class="mb-30">
+                                                    <li class="mb-30" data-aos="fade-up">
                                                         <div class="icon-style"><span><img
                                                                     src="assets/images/main_image/svg/Rcc.svg"
                                                                     alt=""></span></div>
@@ -163,21 +152,21 @@
                                             <!--Single Address Start-->
                                             <div class="single-address mb-30">
                                                 <ul>
-                                                    <li class="mb-30">
+                                                    <li class="mb-30" data-aos="fade-up">
                                                         <div class="icon-style"><span><img
                                                                     src="assets/images/services/Mansonary work.svg"
                                                                     alt=""></span></div>
                                                         <p class="para-style">Masonry works
                                                             & Plaster</p>
                                                     </li>
-                                                    <li class="mb-30">
+                                                    <li class="mb-30" data-aos="fade-up">
                                                         <div class="icon-style"><span><img
                                                                     src="assets/images/services/Plumbing.svg"
                                                                     alt=""></span></div>
                                                         <p class="para-style">Plumbing, Electrical
                                                             & painting works</p>
                                                     </li>
-                                                    <li class="mb-30">
+                                                    <li class="mb-30" data-aos="fade-up">
                                                         <div class="icon-style"><span><img
                                                                     src="assets/images/main_image/svg/Turnkey.svg"
                                                                     alt=""></span></div>
@@ -189,8 +178,8 @@
                                             <!--Single Address End-->
                                         </div>
                                     </div>
-                                    <div>
-                                        <a href="portfolio-boxed-carousel.html" class="btn btn-orange">View More
+                                    <div  data-aos="fade-left">
+                                        <a href="services.php" class="btn btn-orange">View More
                                             <!-- <i class="fa fa-chevron-right"></i> -->
                                         </a>
                                     </div>
@@ -217,7 +206,7 @@
                                 <p>Bhagirathi Construction Company is a
                                     trusted name in the field of construction
                                     and aims to provide high quality services</p>
-                                <div><a href="" class="btn btn-orange">See More</a></div>
+                                <div><a href="projects.php" class="btn btn-orange">See More</a></div>
                             </div>
 
                         </div>
@@ -240,7 +229,7 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40"  data-aos="zoom-out-right">
+                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40"  data-aos="fade-up">
                         <div class="feature">
                             <div class="feature-inner pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
@@ -254,7 +243,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40" data-aos="zoom-out-left">
+                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40" data-aos="fade-up">
                         <div class="feature  ml-20">
                             <div class=" pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-paint"></i></div> -->
@@ -286,7 +275,7 @@
 
         <!--Brand section start-->
         <div
-            class="brand-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-100 pb-lg-80 pb-md-70 pb-sm-60 pb-xs-50">
+            class="brand-section section pt-80 pt-lg-70 pt-md-60 pt-sm-50 pt-xs-50 pb-100 pb-lg-80 pb-md-70 pb-sm-60 pb-xs-50">
             <div class="container" >
                 <div class="row">
 

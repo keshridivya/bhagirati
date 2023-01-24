@@ -19,12 +19,11 @@
         <!--slider section start-->
         <div class="hero-section section position-relative">
             <!--Hero Item start-->
-            <div class="hero-item-4 bg-image" data-bg="assets/images/Website assets/Images/About hero image.png">
+            <div class="hero-item-4 bg-image" data-bg="assets/images/main_image/Images/About hero image.png">
                 <div id="carouselExampleIndicators" class="carousel slide slider__height-2" data-bs-ride="carousel">
-
                     <div class="carousel-inner">
                         <div class="carousel-item transbox active">
-                            <img src="assets/images/Website assets/Images/b11.jpg" alt="first slide"
+                            <img src="assets/images/main_image/Images/b11.jpg" alt="first slide"
                                 class='sliderImg1'>
                             <div class="carousel-caption d-md-block">
                                 <div class="row ">
@@ -40,7 +39,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -61,18 +59,18 @@
                                 <div class="content2">
 
                                     <div class="row">
-                                        <div class="col-12 tab-image4">
+                                        <div class="col-12 tab-image4"  data-aos="fade-up">
                                             <img src="assets/images/services/Civil-1.jpg" alt="">
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5">
+                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5"  data-aos="fade-up" data-aos-delay='100'>
                                             <img src="assets/images/services/Civil-1.jpg" alt=""
                                                 class='tab-image-slider1 image-active'>
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5">
+                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5"  data-aos="fade-up" data-aos-delay='300'>
                                             <img src="assets/images/services/Civil-2.jpg" alt=""
                                                 class='tab-image-slider1'>
                                         </div>
-                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5">
+                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5"  data-aos="fade-up" data-aos-delay='500'>
                                             <img src="assets/images/services/Civil-3.jpg" alt=""
                                                 class='tab-image-slider1'>
                                         </div>
@@ -83,17 +81,17 @@
                     </div>
 
                     <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40">
-                        <div class="  ml-20">
+                        <div class="  ml-20"  >
                             <div class=" pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-paint"></i></div> -->
                                 <div class="content ">
-                                    <div class="single-address mb-30">
-                                        <ul>
-                                            <li class="mb-30">
-                                                <div class="row vertical-align">
-                                                    <div class="col-12 services-icons">
+                                    <div class="single-address mb-30" >
+                                        <ul >
+                                            <li class="mb-30 vertical-align">
+                                                <div class="row " data-aos="fade-left">
+                                                    <div class="col-12 services-icons" >
                                                         <div class="icon-style1"><img
-                                                                src="assets/images/services/Civil.svg" alt="">
+                                                                src="assets/images/services/Civil.svg" alt="" >
 
                                                         </div>
                                                         <h1 class='para-style1'>Civil Structural
@@ -128,8 +126,8 @@
                                 <div class="content ">
                                     <div class="single-address mb-30">
                                         <ul>
-                                            <li class="mb-30">
-                                                <div class="row vertical-align">
+                                            <li class="mb-30 vertical-align">
+                                                <div class="row " data-aos="fade-right">
                                                     <div class="col-12 services-icons">
                                                         <h1 class='para-style1 text-right pr-20'>Waterproofing
                                                             and Insulation Works
@@ -140,7 +138,7 @@
                                                         </div>
 
                                                     </div>
-                                                    <div class="col-12 pt-30 text-right">
+                                                    <div class="col-12 pt-30 text-right pr-50" >
                                                         <p>We build sturdy and environmental friendly
                                                             properties which not only satisfy the needs
                                                             of the customers but also make them feel
@@ -163,18 +161,18 @@
                                 <div class="content2">
 
                                     <div class="row">
-                                        <div class="col-12 tab-image4">
+                                        <div class="col-12 tab-image4"  data-aos="fade-up" >
                                             <img src="assets/images/services/Waterproofing1.jpg" alt="">
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5">
+                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5"  data-aos="fade-up" data-aos-delay='100'>
                                             <img src="assets/images/services/Waterproofing1.jpg" alt=""
                                                 class='tab-image-slider1 image-active'>
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5">
+                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5"  data-aos="fade-up" data-aos-delay='300'>
                                             <img src="assets/images/services/Waterproofing2.jpg" alt=""
                                                 class='tab-image-slider1'>
                                         </div>
-                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5">
+                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5"  data-aos="fade-up" data-aos-delay='500'>
                                             <img src="assets/images/services/Waterproofing3.jpg" alt=""
                                                 class='tab-image-slider1'>
                                         </div>
@@ -195,17 +193,17 @@
                                 <div class="content2">
 
                                     <div class="row">
-                                        <div class="col-12 tab-image4">
+                                        <div class="col-12 tab-image4" data-aos="fade-up">
                                             <img src="assets/images/services/RCC1.jpg" alt="">
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5">
+                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5" data-aos="fade-up" data-aos-delay='100'>
                                             <img src="assets/images/services/RCC1.jpg" alt=""
                                                 class='tab-image-slider1 image-active'>
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5">
+                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5" data-aos="fade-up" data-aos-delay='300'>
                                             <img src="assets/images/services/Rcc2.jpg" alt="" class='tab-image-slider1'>
                                         </div>
-                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5">
+                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5" data-aos="fade-up" data-aos-delay='500'>
                                             <img src="assets/images/services/Rcc3.jpg" alt="" class='tab-image-slider1'>
                                         </div>
                                     </div>
@@ -221,8 +219,8 @@
                                 <div class="content ">
                                     <div class="single-address mb-30">
                                         <ul>
-                                            <li class="mb-30">
-                                                <div class="row vertical-align">
+                                            <li class="mb-30 vertical-align">
+                                                <div class="row " data-aos="fade-left">
                                                     <div class="col-12 services-icons">
                                                         <div class="icon-style1"><img
                                                                 src="assets/images/services/Rcc.svg" alt="">
@@ -259,8 +257,8 @@
                                 <div class="content ">
                                     <div class="single-address mb-30">
                                         <ul>
-                                            <li class="mb-30">
-                                                <div class="row vertical-align">
+                                            <li class="mb-30 vertical-align">
+                                                <div class="row " data-aos="fade-right">
                                                     <div class="col-12 services-icons">
                                                         <h1 class='para-style1 text-right pr-20'>Masonry works
                                                             and Plaster
@@ -271,7 +269,7 @@
                                                         </div>
 
                                                     </div>
-                                                    <div class="col-12 pt-30 text-right">
+                                                    <div class="col-12 pt-30 text-right pr-50">
                                                         <p>We provide a finished surface over the masonry
                                                             which is smooth and enhances the appearance
                                                             of the building.</p>
@@ -293,18 +291,18 @@
                                 <div class="content2">
 
                                     <div class="row">
-                                        <div class="col-12 tab-image4">
+                                        <div class="col-12 tab-image4"  data-aos="fade-up">
                                             <img src="assets/images/services/PLASTER-1.jpg" alt="">
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5">
+                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5"  data-aos="fade-up" data-aos-delay='100'>
                                             <img src="assets/images/services/PLASTER-1.jpg" alt=""
                                                 class='tab-image-slider1 image-active'>
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5">
+                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5"  data-aos="fade-up" data-aos-delay='300'>
                                             <img src="assets/images/services/PLASTER-2.jpg" alt=""
                                                 class='tab-image-slider1'>
                                         </div>
-                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5">
+                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5"  data-aos="fade-up" data-aos-delay='500'>
                                             <img src="assets/images/services/PLASTER-3.jpg" alt=""
                                                 class='tab-image-slider1'>
                                         </div>
@@ -325,18 +323,18 @@
                                 <div class="content2">
 
                                     <div class="row">
-                                        <div class="col-12 tab-image4">
+                                        <div class="col-12 tab-image4"  data-aos="fade-up">
                                             <img src="assets/images/services/PLUMBING-1.jpg" alt="">
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5">
+                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5" data-aos="fade-up" data-aos-delay='100'>
                                             <img src="assets/images/services/PLUMBING-1.jpg" alt=""
                                                 class='tab-image-slider1 image-active'>
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5">
+                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5" data-aos="fade-up" data-aos-delay='300'>
                                             <img src="assets/images/services/PLUMBING-2.jpg" alt=""
                                                 class='tab-image-slider1'>
                                         </div>
-                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5">
+                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5" data-aos="fade-up" data-aos-delay='500'>
                                             <img src="assets/images/services/PLUMBING-3.jpg" alt=""
                                                 class='tab-image-slider1'>
                                         </div>
@@ -353,8 +351,8 @@
                                 <div class="content ">
                                     <div class="single-address mb-30">
                                         <ul>
-                                            <li class="mb-30">
-                                                <div class="row vertical-align">
+                                            <li class="mb-30 vertical-align">
+                                                <div class="row " data-aos="fade-left">
                                                     <div class="col-12 services-icons">
                                                         <div class="icon-style1"><img
                                                                 src="assets/images/services/Plumbing.svg" alt="">
@@ -392,8 +390,8 @@
                                 <div class="content ">
                                     <div class="single-address mb-30">
                                         <ul>
-                                            <li class="mb-30">
-                                                <div class="row vertical-align">
+                                            <li class="mb-30 vertical-align">
+                                                <div class="row" data-aos="fade-right">
                                                     <div class="col-12 services-icons">
                                                         <h1 class='para-style1 text-right pr-20'>Turnkey work of
                                                             Civil & Interior
@@ -404,7 +402,7 @@
                                                         </div>
 
                                                     </div>
-                                                    <div class="col-12 pt-30 text-right">
+                                                    <div class="col-12 pt-30 text-right pr-50">
                                                         <p>We undertake turnkey projects in civil &
                                                             interiors which combines the interior design
                                                             & interior construction process under one
@@ -430,18 +428,18 @@
                                 <div class="content2">
 
                                     <div class="row">
-                                        <div class="col-12 tab-image4">
+                                        <div class="col-12 tab-image4" data-aos="fade-up">
                                             <img src="assets/images/services/Turnkey1.jpg" alt="">
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5">
+                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5" data-aos="fade-up" data-aos-delay='100'>
                                             <img src="assets/images/services/Turnkey1.jpg" alt=""
                                                 class='tab-image-slider1 image-active'>
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5">
+                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5" data-aos="fade-up" data-aos-delay='300'>
                                             <img src="assets/images/services/Turnkey2.jpg" alt=""
                                                 class='tab-image-slider1'>
                                         </div>
-                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5">
+                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5" data-aos="fade-up" data-aos-delay='500'>
                                             <img src="assets/images/services/Turnkey3.jpg" alt=""
                                                 class='tab-image-slider1'>
                                         </div>
@@ -458,7 +456,7 @@
             <div class="container pl-0 pr-0">
 
                 <div class="row no-gutters">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-right">
                         <div class="home-blog-wrap">
                             <div class="content text-start max-width mb-10">
                                 <h2>You see in Dreams,
@@ -472,8 +470,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="thumb">
-                            <img src="assets/images/Website assets/Images/3rd Section img.png" alt="">
+                        <div class="thumb" data-aos="fade-left">
+                            <img src="assets/images/main_image/Images/3rd Section img.png" alt="">
                         </div>
                     </div>
 

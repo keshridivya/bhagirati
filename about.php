@@ -27,7 +27,7 @@
                 <div id="carouselExampleIndicators" class="carousel slide slider__height-2" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item transbox active">
-                            <img src="assets/images/Website assets/Images/About hero image.png" alt="first slide"
+                            <img src="assets/images/main_image/Images/About hero image.png" alt="first slide"
                                 class='sliderImg1'>
                             <div class="carousel-caption d-md-block">
                                 <div class="row ">
@@ -61,17 +61,17 @@
                             <div class="feature-inner pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
                                 <div class="content1">
-                                    <div class="image-style image-style1">
-                                        <img src="assets/images/Website assets/Images/Service 1.png" alt="">
+                                    <div class="image-style image-style1" data-aos="fade-down-right">
+                                        <img src="assets/images/main_image/Images/service1.png" alt="">
                                     </div>
-                                    <div class="image-style">
-                                        <img src="assets/images/Website assets/Images/Service 2.png" alt="">
+                                    <div class="image-style" data-aos="fade-down-left">
+                                        <img src="assets/images/main_image/Images/service2.png" alt="">
                                     </div>
-                                    <div class="image-style image-style1">
-                                        <img src="assets/images/Website assets/Images/Service 3.png" alt="">
+                                    <div class="image-style image-style1" data-aos="fade-up-right">
+                                        <img src="assets/images/main_image/Images/service3.png.png" alt="">
                                     </div>
-                                    <div class="image-style ">
-                                        <img src="assets/images/Website assets/Images/Service 4.png" alt="">
+                                    <div class="image-style " data-aos="fade-up-left">
+                                        <img src="assets/images/main_image/Images/service4.png.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,8 @@
 
                     <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40">
                         <div class="feature">
-                            <div class=" pl-0 pr-0">
+                            <div class=" pl-0 pr-0"  data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="4000">
                                 <!-- <div class="icon"><i class="pe-7s-paint"></i></div> -->
                                 <div class="content ">
                                     <h2>About us</h2>
@@ -150,12 +151,12 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40">
+                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40"  data-aos="zoom-out-right">
                         <div class="feature">
                             <div class="feature-inner pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
                                 <div class="content2">
-                                    <img src="assets/images/Website assets/Images/Why us.png" alt="">
+                                    <img src="assets/images/main_image/Images/Why us.png" alt="">
                                 </div>
                                 <div class="hover-button">
                                     <p class="">We Build Relationships That Last For A Lifetime.</p>
@@ -164,7 +165,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40">
+                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40"  data-aos="zoom-out-left">
                         <div class="feature  ml-20">
                             <div class=" pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-paint"></i></div> -->
@@ -205,12 +206,12 @@
                     </div>
 
                     <!--Brand Slider start-->
-                    <div class="brand-slider section mt-20">
-                        <div class="brand col"><img src="assets/images/Website assets/images/wcg_logo_3.png" alt=""
+                    <div class="brand-slider section">
+                        <div class="brand col"  data-aos="fade-up" data-aos-delay='100'><img src="assets/images/main_image/images/wcg_logo_3.png" alt=""
                                 style="width: 130px !important;"></div>
-                        <div class="brand col"><img src="assets/images/Website assets/images/wcg_logo_3.png" alt=""
+                        <div class="brand col"  data-aos="fade-up" data-aos-delay='300'><img src="assets/images/main_image/images/wcg_logo_3.png" alt=""
                                 style="width: 130px !important;"></div>
-                        <div class="brand col"><img src="assets/images/Website assets/images/wcg_logo_3.png" alt=""
+                        <div class="brand col"  data-aos="fade-up" data-aos-delay='500'><img src="assets/images/main_image/images/wcg_logo_3.png" alt=""
                                 style="width: 130px !important;"></div>
                     </div>
                     <!--Brand Slider end-->
@@ -222,7 +223,7 @@
 
 
            <!--Testimonial section start-->
-    <div class="testimonial-section section pb-80 pb-lg-60 pb-md-25 pb-sm-40 pb-xs-50">
+    <div class="testimonial-section section pb-80 pb-lg-60 pb-md-25 pb-sm-40 pb-xs-50"   data-aos="fade-up">
         <div class="container">
            
             <div class="row">

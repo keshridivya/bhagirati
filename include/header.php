@@ -7,7 +7,7 @@
 
                        <div class="col-md-3">
                            <div class="logo pt-20 pb-20">
-                               <a href="index.html"><img src="assets/images/Website assets/SVG/Logo.svg" alt="logo"></a>
+                               <a href="index.html"><img src="assets/images/main_image/svg/Logo.svg" alt="logo"></a>
                            </div>
                        </div>
 
@@ -17,7 +17,7 @@
                                    <li class="info-item">
                                        <div class="inner">
                                            <div class="icon">
-                                               <img src="assets/images/Website assets/SVG/Contact.svg" alt="logo"
+                                               <img src="assets/images/main_image/svg/Contact.svg" alt="logo"
                                                    class='svgicon'>
                                            </div>
                                            <div class="content">
@@ -29,7 +29,7 @@
                                    <li class="info-item">
                                        <div class="inner">
                                            <div class="icon">
-                                               <img src="assets/images/Website assets/SVG/Location.svg" alt="logo"
+                                               <img src="assets/images/main_image/svg/Location.svg" alt="logo"
                                                    class='svgicon'>
                                            </div>
                                            <div class="content">
@@ -54,7 +54,7 @@
                                <!--Logo start-->
                                <div class="col-lg-3 col-md-12 col-12 mt-20 mb-20 mt-xs-0 logo-none">
                                    <div class="logo">
-                                       <a href="index.php"><img src="assets/images/Website assets/SVG/Logo.svg"
+                                       <a href="index.php"><img src="assets/images/main_image/svg/Logo.svg"
                                                alt=""></a>
                                    </div>
                                </div>
@@ -97,7 +97,7 @@
                        <!--Logo start-->
                        <div class="col-lg-2 col-md-4 col-6 mt-20 mb-20">
                            <div class="logo">
-                               <a href="index.html"><img src="assets/images/Website assets/SVG/Logo.svg" alt=""></a>
+                               <a href="index.html"><img src="assets/images/main_image/svg/Logo.svg" alt=""></a>
                            </div>
                        </div>
                        <!--Logo end-->

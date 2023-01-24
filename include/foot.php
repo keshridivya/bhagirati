@@ -8,6 +8,13 @@
     <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
     <script src="assets/js/slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init({
+    duration: 1400,
+  })
+</script>
+
     
     <!--Google Map Active-->
     <script>

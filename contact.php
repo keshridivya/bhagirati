@@ -43,7 +43,7 @@
                 <div id="carouselExampleIndicators" class="carousel slide slider__height-2" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item transbox active">
-                            <img src="assets/images/Website assets/Images/Contact us hero image.png" alt="first slide"
+                            <img src="assets/images/main_image/Images/Contact us hero image.png" alt="first slide"
                                 class='sliderImg1'>
                             <div class="carousel-caption d-md-block">
                                 <div class="row ">
@@ -119,7 +119,7 @@
                                             <li>
                                                 <div class="inner">
                                                     <div class="icon">
-                                                        <img src="assets/images/Website assets/SVG/Contact.svg"
+                                                        <img src="assets/images/main_image/svg/Contact.svg"
                                                             alt="logo" class='svgicon'>
                                                     </div>
                                                     <div class="content">
@@ -130,7 +130,7 @@
                                             <li>
                                                 <div class="inner">
                                                     <div class="icon">
-                                                        <img src="assets/images/Website assets/SVG/E-mail.svg"
+                                                        <img src="assets/images/main_image/svg/E-mail.svg"
                                                             alt="logo" class='svgicon'>
                                                     </div>
                                                     <div class="content">
@@ -141,7 +141,7 @@
                                             <li>
                                                 <div class="inner">
                                                     <div class="icon">
-                                                        <img src="assets/images/Website assets/SVG/Location.svg"
+                                                        <img src="assets/images/main_image/svg/Location.svg"
                                                             alt="logo" class='svgicon ml-2'>
                                                     </div>
                                                     <div class="content">

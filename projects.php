@@ -221,7 +221,7 @@
 
                     <div class="carousel-inner">
                         <div class="carousel-item transbox active">
-                            <img src="assets/images/Website assets/Images/b13.jpg" alt="first slide"
+                            <img src="assets/images/main_image/Images/b13.jpg" alt="first slide"
                                 class='sliderImg1'>
                             <div class="carousel-caption d-md-block">
                                 <div class="row ">
@@ -250,52 +250,52 @@
                 <div class="tabUl">
                     <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#home"
+                            <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#home"  data-aos="fade-up" data-aos-delay='100'
                                 type="button" role="tab" aria-controls="nav-all" aria-selected="true"
                                 style='border-top-left-radius:5px; border-bottom-left-radius:5px;'>Residential</button>
                         </li>
                         <li class="nav-item">
                             <button class="nav-link" id="nav-trending-tab" data-bs-toggle="tab"
-                                data-bs-target="#profile-recong" type="button" role="tab" aria-controls="profile-recong"
+                                data-bs-target="#profile-recong" type="button" role="tab" aria-controls="profile-recong"  data-aos="fade-up" data-aos-delay='300'
                                 aria-selected="false">Commercial</button>
                         </li>
                         <li class="nav-item">
                             <button class="nav-link" id="nav-trending-tab" data-bs-toggle="tab"
                                 data-bs-target="#contact-kjjk" type="button" role="tab" aria-controls="profile-recong"
-                                aria-selected="false"
+                                aria-selected="false"  data-aos="fade-up" data-aos-delay='700'
                                 style='border-top-right-radius:5px; border-bottom-right-radius:5px;'>recommand</button>
                         </li>
                     </ul>
                 </div>
-                <div class="tab-content" id="myTabContent">
+                <div class="tab-content" id="myTabContent" data-aos="fade-up" data-aos-delay='700'>
                     <div class="content ">
                         <h1>Our Residential Projects</h1>
                     </div>
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="nav-all-tab">
                         <div class="your-class">
-                            <div><img src="assets/images/Website assets/Images/Service 1.png" alt=""></div>
-                            <div><img src="assets/images/Website assets/Images/Service 1.png" alt=""></div>
-                            <div><img src="assets/images/Website assets/Images/Service 1.png" alt=""></div>
-                            <div><img src="assets/images/Website assets/Images/Service 1.png" alt=""></div>
-                            <div><img src="assets/images/Website assets/Images/Service 1.png" alt=""></div>
-                            <div><img src="assets/images/Website assets/Images/Service 1.png" alt=""></div>
+                            <div><img src="assets/images/main_image/Images/service1.png" alt=""></div>
+                            <div><img src="assets/images/main_image/Images/service1.png" alt=""></div>
+                            <div><img src="assets/images/main_image/Images/service1.png" alt=""></div>
+                            <div><img src="assets/images/main_image/Images/service1.png" alt=""></div>
+                            <div><img src="assets/images/main_image/Images/service1.png" alt=""></div>
+                            <div><img src="assets/images/main_image/Images/service1.png" alt=""></div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="profile-recong" role="tabpanel" aria-labelledby="nav-trending-tab">
                         <div class="your-class">
-                            <div><img src="assets/images/Website assets/Images/Service 1.png" alt="">
+                            <div><img src="assets/images/main_image/Images/service1.png" alt="">
                                 <p>SIlver Queen Luxury Residency</p>
                             </div>
-                            <div><img src="assets/images/Website assets/Images/Service 1.png" alt="">
+                            <div><img src="assets/images/main_image/Images/service1.png" alt="">
                                 <p>SIlver Queen Luxury Residency</p>
                             </div>
-                            <div><img src="assets/images/Website assets/Images/Hero Image.png" alt="">
+                            <div><img src="assets/images/main_image/Images/Hero Image.png" alt="">
                                 <p>SIlver Queen Luxury Residency</p>
                             </div>
                             <div><img src="http://via.placeholder.com/242x300/ffffff/000000" alt="">
                                 <p>SIlver Queen Luxury Residency</p>
                             </div>
-                            <div><img src="assets/images/Website assets/Images/Hero Image.png" alt="">
+                            <div><img src="assets/images/main_image/Images/Hero Image.png" alt="">
                                 <p>SIlver Queen Luxury Residency</p>
                             </div>
 
@@ -303,11 +303,11 @@
                     </div>
                     <div class="tab-pane fade" id="contact-kjjk" role="tabpanel" aria-labelledby="nav-trending-tab">
                         <div class="your-class">
-                            <div><img src="assets/images/Website assets/Images/Hero Image.png" alt=""></div>
+                            <div><img src="assets/images/main_image/Images/Hero Image.png" alt=""></div>
                             <div><img src="http://via.placeholder.com/242x300" alt=""></div>
-                            <div><img src="assets/images/Website assets/Images/Hero Image.png" alt=""></div>
+                            <div><img src="assets/images/main_image/Images/Hero Image.png" alt=""></div>
                             <div><img src="http://via.placeholder.com/242x300/ffffff/000000" alt=""></div>
-                            <div><img src="assets/images/Website assets/Images/Hero Image.png" alt=""></div>
+                            <div><img src="assets/images/main_image/Images/Hero Image.png" alt=""></div>
 
                         </div>
                     </div>
@@ -320,11 +320,11 @@
 
         <!--why us-->
         <div
-            class="feature-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-35 pb-lg-15 pb-md-5 pb-sm-5 pb-xs-5">
-            <div class="container">
+            class="feature-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-35 pb-lg-15 pb-md-5 pb-sm-5 pb-xs-5" >
+            <div class="container" >
             <h1>Amrit The Luxury Residency</h1>
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40">
+                    <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40" >
                         <div class="feature">
                             <div class=" pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
@@ -332,13 +332,13 @@
                                    
                                     <div class="row">
                                         <div class="col-8 tab-image1">
-                                            <img src="assets/images/Website assets/Images/Service 1.png" alt="">
+                                            <img src="assets/images/main_image/Images/service1.png" alt="">
                                         </div>
                                         <div class="col-4 tab-image2">
-                                            <img src="assets/images/Website assets/Images/Service 1.png" alt="" class='tab-image-slider image-active'>
-                                            <img src="assets/images/Website assets/Images/Service 2.png" alt="" class='tab-image-slider'>
-                                            <img src="assets/images/Website assets/Images/Service 3.png" alt="" class='tab-image-slider'>
-                                            <img src="assets/images/Website assets/Images/Service 1.png" alt="" class='tab-image-slider'>
+                                            <img src="assets/images/main_image/Images/service1.png" alt="" class='tab-image-slider image-active'>
+                                            <img src="assets/images/main_image/Images/service2.png" alt="" class='tab-image-slider'>
+                                            <img src="assets/images/main_image/Images/service3.png" alt="" class='tab-image-slider'>
+                                            <img src="assets/images/main_image/Images/service1.png" alt="" class='tab-image-slider'>
                                         </div>
                                     </div>
                                 </div>

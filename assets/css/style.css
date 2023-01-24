@@ -580,7 +580,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   border-color: #ff5b14 !important;
 }
 .btn:hover {
-  background-color: #1b1f2d;
+  background-color: #0a3f72;
   color: #ffffff;
 }
 @media only screen and (max-width: 767px) {
@@ -588,7 +588,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     font-size: 14px;
     line-height: 23px;
     height: 45px;
-    padding: 10px 25px;
+    padding: 0 25px;
   }
   .btn:hover::before {
     left: 6px;
@@ -6628,6 +6628,9 @@ ul.all-mission-list li span {
   .comment-list ol {
     margin: 0 0 30px;
   }
+  .carousel-caption {
+    top: 40px;
+}
 }
 .comment-list ol li .comment-2 {
   display: flex;
@@ -6855,6 +6858,18 @@ ul.all-mission-list li span {
   .cart-table .table thead {
     display: none;
   }
+}
+@media only screen and (max-width:380px){
+  .hero-content-2 h2 {
+    font-size: 15px;
+}
+.btn{
+  line-height: 35px !important;
+    height: 35px !important;
+}
+.carousel-caption {
+  top: 15px;
+}
 }
 .cart-table .table thead tr th {
   text-align: center;
@@ -9817,7 +9832,7 @@ a.read-more-btn:hover i {
   border-radius: 5px;
 }
 .plpercente{
-  padding-left:7%;
+  padding-left:10%;
 }
 @media only screen and (max-width: 767px) {
   .footer-newsletter input {

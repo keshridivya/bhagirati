@@ -53,4 +53,20 @@
         echo "There was a problem with your submission, please try again.";
     }
 
+//     $to = "xxx@yyyy.com";
+
+// $subject = "Test email sent on ".date('M d, Y, h:i:sp', time());
+
+// $message = "Hi, This is a test mail";
+
+// $headers = 'From: Multirater Surveys <info@multiratersurveys.com>' . "\n";
+// $headers .= 'MIME-Version: 1.0' . "\n";
+// $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+// $returnpath = '-f info@multiratersurveys.com';
+
+// if(mail($to,$subject,$message,
+
+// $headers, $returnpath)) echo "Success"; else echo "Failed";
+
 ?>

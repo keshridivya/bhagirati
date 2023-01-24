@@ -32,7 +32,6 @@ $(document).ready(function(){
 
     });
 
-     
 
    jQuery(function($) {
     var path = window.location.href; 

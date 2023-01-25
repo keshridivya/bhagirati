@@ -4,24 +4,6 @@ $(document).ready(function(){
         $(this).addClass('image-active').siblings().removeClass('image-active');
         $(this).parent('.tab-image2').parent('.row').children('.tab-image1').children('img').attr('src',images);
     });
-   
-    // setInterval(function() {
-    //   var active = $('div .image-active');
-    //   active.removeClass('image-active');
-    //   active.parent().next('div').children('.tab-image-slider1').addClass('image-active');
-    //   let active1=active.parent().next('div').children('.tab-image-slider1').addClass('image-active');
-    //   let aatr=active1.attr('src');
-
-    //   if (active.parent().next('div').children('.tab-image-slider1').length == 0) {
-    //     active.parent('.tab-image3').parent('.carslider').find('.tab-image3:first').children('.tab-image-slider1').addClass('image-active');
-    //     let active2=$('.image-active').parent('.tab-image3').parent('.carslider').find('.tab-image3:first').children('.tab-image-slider1').addClass('image-active');
-    //     let aat1=active2.attr('src');
-    //     $('.image-active').parent('.tab-image3').parent('.carslider').parent('.row').children('.tab-image4').children('img').attr('src',aat1);
-    //   } else {
-    //     active.parent().next('div').children('.tab-image-slider1').addClass('image-active');
-    //   }
-    //   $('.image-active').parent('.tab-image3').parent('.carslider').parent('.row').children('.tab-image4').children('img').attr('src',aatr);
-    // }, 4000);
 
     setInterval(function(){
           var active1 = $('.tab-image-slider.image-active');

@@ -111,7 +111,7 @@
         <!--about-->
 
         <!--counter-->
-        <div class="conebrick-parallax-section section bg-gray bg-image " data-aos="fade-up"
+        <div class="conebrick-parallax-section section bg-gray bg-image " data-aos="fade-up"   data-aos-anchor-placement="top-bottom"
             data-bg="assets/images/main_image/parallaxbg4.webp">
             <div class="container">
                 <div class="row">
@@ -133,7 +133,7 @@
         <!--Conebrick Parallax Section End-->
 
         <!--Funfact section start-->
-        <div class="funfact-section section" data-aos="fade-up">
+        <div class="funfact-section section" data-aos="fade-up"  data-aos-anchor-placement="top-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -222,7 +222,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="content text-center max-width mb-10">
+                    <div class="content text-center max-width mb-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <h2>Our Clients</h2>
                     </div>
 
@@ -247,7 +247,7 @@
 
 
         <!--Testimonial section start-->
-        <div class="testimonial-section section pb-80 pb-lg-60 pb-md-25 pb-sm-40 pb-xs-50" data-aos="fade-up">
+        <div class="testimonial-section section pb-80 pb-lg-60 pb-md-25 pb-sm-40 pb-xs-50" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <div class="container">
 
                 <div class="row">

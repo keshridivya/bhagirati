@@ -7,7 +7,7 @@
 
                        <div class="col-md-3">
                            <div class="logo pt-20 pb-20">
-                               <a href="index.html"><img src="assets/images/main_image/svg/Logo.svg" alt="logo"></a>
+                               <a href="index"><img src="assets/images/main_image/svg/Logo.svg" alt="logo"></a>
                            </div>
                        </div>
 
@@ -54,7 +54,7 @@
                                <!--Logo start-->
                                <div class="col-lg-3 col-md-12 col-12 mt-20 mb-20 mt-xs-0 logo-none">
                                    <div class="logo">
-                                       <a href="index.php"><img src="assets/images/main_image/svg/Logo.svg"
+                                       <a href="index"><img src="assets/images/main_image/svg/Logo.svg"
                                                alt=""></a>
                                    </div>
                                </div>
@@ -64,16 +64,16 @@
                                <div class="col-lg-9 col-md-8 col-6 position-static">
                                    <nav class="main-menu color-white">
                                        <ul class='justify-content-center main-menu-ul'>
-                                           <li class=""><a href="index.php"><span>HOME</span></a>
+                                           <li class=""><a href="index"><span>HOME</span></a>
                                            </li>
-                                           <li class="position-static"><a href="about.php"><span>ABOUT US</span></a>
+                                           <li class="position-static"><a href="about"><span>ABOUT US</span></a>
                                            </li>
-                                           <li><a href="projects.php"><span>PROJECTS</span></a>
+                                           <li><a href="projects"><span>PROJECTS</span></a>
                                            </li>
-                                           <li><a href="services.php"><span>SERVICES</span></a>
+                                           <li><a href="services"><span>SERVICES</span></a>
 
                                            </li>
-                                           <li class="position-static"><a href="contact.php"><span>CONTACT US</span></a>
+                                           <li class="position-static"><a href="contact"><span>CONTACT US</span></a>
 
                                            </li>
                                        </ul>
@@ -97,7 +97,7 @@
                        <!--Logo start-->
                        <div class="col-lg-2 col-md-4 col-6 mt-20 mb-20">
                            <div class="logo">
-                               <a href="index.html"><img src="assets/images/main_image/svg/Logo.svg" alt=""></a>
+                               <a href="index"><img src="assets/images/main_image/svg/Logo.svg" alt=""></a>
                            </div>
                        </div>
                        <!--Logo end-->
@@ -106,15 +106,15 @@
                        <div class="col-lg-10 col-md-8 col-6 d-flex justify-content-end position-static">
                            <nav class="main-menu-mobile">
                                <ul class='justify-content-center main-menu-ul'>
-                                   <li class="active"><a href="index.php"><span>HOME</span></a>
+                                   <li class="active"><a href="index"><span>HOME</span></a>
                                    </li>
-                                   <li class="position-static"><a href="about.php"><span>ABOUT US</span></a>
+                                   <li class="position-static"><a href="about"><span>ABOUT US</span></a>
                                    </li>
-                                   <li><a href="projects.php"><span>PROJECTS</span></a>
+                                   <li><a href="projects"><span>PROJECTS</span></a>
                                    </li>
-                                   <li><a href="services.php"><span>SERVICES</span></a>
+                                   <li><a href="services"><span>SERVICES</span></a>
                                    </li>
-                                   <li class="position-static"><a href="contact.php"><span>CONTACT US</span></a>
+                                   <li class="position-static"><a href="contact"><span>CONTACT US</span></a>
                                    </li>
                                </ul>
                            </nav>

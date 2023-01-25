@@ -252,26 +252,26 @@
             style='position:relative'>
             <div class="container">
                 <div class="tabUl">
-                    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <li class="nav-item">
-                            <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#home"  data-aos="fade-up"
+                            <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#home" 
                                 type="button" role="tab" aria-controls="nav-all" aria-selected="true"
                                 style='border-top-left-radius:5px; border-bottom-left-radius:5px;'>Residential</button>
                         </li>
                         <li class="nav-item">
                             <button class="nav-link" id="nav-trending-tab" data-bs-toggle="tab"
-                                data-bs-target="#profile-recong" type="button" role="tab" aria-controls="profile-recong"  data-aos="fade-up"
+                                data-bs-target="#profile-recong" type="button" role="tab" aria-controls="profile-recong" 
                                 aria-selected="false">Commercial</button>
                         </li>
                         <li class="nav-item">
                             <button class="nav-link" id="nav-trending-tab" data-bs-toggle="tab"
                                 data-bs-target="#contact-kjjk" type="button" role="tab" aria-controls="profile-recong"
-                                aria-selected="false"  data-aos="fade-up" 
+                                aria-selected="false" 
                                 style='border-top-right-radius:5px; border-bottom-right-radius:5px;'>recommand</button>
                         </li>
                     </ul>
                 </div>
-                <div class="tab-content" id="myTabContent" data-aos="fade-up" >
+                <div class="tab-content" id="myTabContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
                     <div class="content ">
                         <h1>Our Residential Projects</h1>
                     </div>

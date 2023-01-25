@@ -9,7 +9,7 @@
                 <!--Footer Widget start-->
                 <div class="footer-widget col-lg-4  col-md-4 col-12 mb-40">
                     <div class="footer-logo">
-                        <a href="index.html"><img src="assets/images/main_image/svg/Logo.svg" alt=""></a>
+                        <a href="index"><img src="assets/images/main_image/svg/Logo.svg" alt=""></a>
                     </div>
                     <p><strong>Social Media</strong></p>
                     <div class="footer-social">
@@ -27,9 +27,9 @@
                 <div class=" col-md-4 col-6 plpercente">
                     <h4 class="title"><span class="text-blue">About us</span></h4>
                     <ul class="f-menu-link">
-                        <li><a href="#">Our Work</a></li>
-                        <li><a href="#">Our services</a></li>
-                        <li><a href="#">Career</a></li>
+                        <li><a href="projects">Our Work</a></li>
+                        <li><a href="services">Our services</a></li>
+                        <li><a href="contact">Career</a></li>
                     </ul>
                 </div>
                 <!--Footer Widget end-->

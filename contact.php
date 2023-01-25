@@ -2,6 +2,7 @@
 <html class="no-js" lang="zxx">
 
 <head>
+<title>Bhagirathi - Contact</title>
     <?php require('include/head.php'); ?>
     <style>
         header.header {
@@ -74,10 +75,9 @@
                     <div class="col-lg-7 contact-form">
                         <div class="">
                             <div class="content max-width mb-10">
-                                <h2 class="contact-title">Get in Touch</h2>
+                                <h2 class="contact-title text-center">Get in Touch</h2>
                             </div>
-                            
-                                <div class="row">
+                                <div class="row mt-30">
                                     <div class="col-12 col-md-6 ">
                                     <form id="contact-form" action="assets/php/mail.php" method="post">
                                         <div class="row">
@@ -102,7 +102,7 @@
                                             <div class="col-md-12">
                                                 <div class="contact-form-style mb-20">
                                                     <textarea name="message" placeholder="Message" class='form-control'
-                                                        rows="8"></textarea>
+                                                        rows="4"></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
@@ -113,11 +113,11 @@
                                         </div>
                                         </form>
                                     </div>
-                                    <div class="col-12 col-md-6 info" >
+                                    <div class="col-12 col-md-6 " >
                                         <h4 class="title"><span class="text-blue">Info</span></h4>
-                                        <ul class="f-menu-link">
+                                        <ul class="f-menu-link mt-20">
                                             <li>
-                                                <div class="inner">
+                                                <div class="inner ">
                                                     <div class="icon">
                                                         <img src="assets/images/main_image/svg/Contact.svg"
                                                             alt="logo" class='svgicon'>
@@ -128,7 +128,7 @@
                                                 </div>
                                             </li>
                                             <li>
-                                                <div class="inner">
+                                                <div class="inner mt-2">
                                                     <div class="icon">
                                                         <img src="assets/images/main_image/svg/E-mail.svg"
                                                             alt="logo" class='svgicon'>
@@ -139,7 +139,7 @@
                                                 </div>
                                             </li>
                                             <li>
-                                                <div class="inner">
+                                                <div class="inner mt-2">
                                                     <div class="icon">
                                                         <img src="assets/images/main_image/svg/Location.svg"
                                                             alt="logo" class='svgicon ml-2'>

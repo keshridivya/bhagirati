@@ -2,6 +2,7 @@
 <html class="no-js" lang="zxx">
 
 <head>
+<title>Bhagirathi - Services</title>
     <?php require('include/head.php'); ?>
     <style>
         .transbox:before {

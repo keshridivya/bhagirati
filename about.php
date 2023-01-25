@@ -2,6 +2,7 @@
 <html class="no-js" lang="zxx">
 
 <head>
+<title>Bhagirathi - About</title>
     <?php require('include/head.php'); ?>
     <style>
         header.header {

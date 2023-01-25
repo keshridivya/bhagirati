@@ -2,7 +2,7 @@
 
     <!--Footer Top start-->
     <div
-        class="footer-top section bg-gray pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-20 pb-lg-20 pb-md-20 pb-sm-10 pb-xs-3" >
+        class="footer-top section bg-gray pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-20 pb-lg-20 pb-md-20 pb-sm-10 pb-xs-3">
         <div class="container">
             <div class="row">
 
@@ -25,11 +25,20 @@
 
                 <!--Footer Widget start-->
                 <div class=" col-md-4 col-6 plpercente">
-                    <h4 class="title"><span class="text-blue">About us</span></h4>
+                    <h4 class="title"><span class="text-blue">Quick Links</span></h4>
                     <ul class="f-menu-link">
-                        <li><a href="projects">Our Work</a></li>
-                        <li><a href="services">Our services</a></li>
-                        <li><a href="contact">Career</a></li>
+                        <li class=""><a href="index">HOME</a>
+                        </li>
+                        <li ><a href="about">ABOUT US</a>
+                        </li>
+                        <li><a href="projects">PROJECTS</a>
+                        </li>
+                        <li><a href="services">SERVICES</a>
+
+                        </li>
+                        <li><a href="contact">CONTACT US</a>
+
+                        </li>
                     </ul>
                 </div>
                 <!--Footer Widget end-->
@@ -43,7 +52,7 @@
                                     <img src="assets/images/main_image/svg/Contact.svg" alt="logo" class='svgicon'>
                                 </div>
                                 <div class="content">
-                                    <span class="text-lev1">+919769108043 | +919326675810</span>
+                                    <span class="text-lev1">+91 8286244502 </span>
                                 </div>
                             </div>
                         </li>
@@ -53,7 +62,8 @@
                                     <img src="assets/images/main_image/svg/E-mail.svg" alt="logo" class='svgicon'>
                                 </div>
                                 <div class="content">
-                                    <span class="text-lev1">info@Woodworkshop.com</span>
+                                    <span class="text-lev1">info@bhagirathiconstructions.com
+</span>
                                 </div>
                             </div>
                         </li>
@@ -82,8 +92,8 @@
     <!--Footer Top end-->
 
     <!--Footer bottom start-->
-    <div class="footer-bottom section bg-gray " >
-        <div class="container" >
+    <div class="footer-bottom section bg-gray ">
+        <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-md-12">
                     <div class="copyright">

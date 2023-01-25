@@ -4,12 +4,12 @@
 <head>
     <?php require('include/head.php'); ?>
     <style>
-               .transbox:before{
-            content:'';
-            position:absolute;
-            width:100%;
-            height:100%;
-            background: linear-gradient(to right, #254b70, transparent,transparent);
+        .transbox:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, #254b70, transparent, transparent);
         }
     </style>
 </head>
@@ -27,8 +27,7 @@
                 <div id="carouselExampleIndicators" class="carousel slide slider__height-2" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item transbox active">
-                            <img src="assets/images/main_image/Images/b11.jpg" alt="first slide"
-                                class='sliderImg1'>
+                            <img src="assets/images/main_image/Images/b11.jpg" alt="first slide" class='sliderImg1'>
                             <div class="carousel-caption d-md-block">
                                 <div class="row ">
                                     <div class="col-lg-7 col-md-7 col-12">
@@ -61,24 +60,29 @@
                             <div class=" pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
                                 <div class="content2">
-
                                     <div class="row ">
-                                        <div class="col-12 tab-image4"  data-aos="fade-up">
-                                            <img src="assets/images/services/Civil-1.jpg" alt="">
+                                        <div class="col-12 tab-image4" data-aos="fade-up">
+                                            <div class="slider slider-single">
+                                                <div>
+                                                    <img src="assets/images/services/Civil-1.jpg" alt="">
+                                                </div>
+                                                <div>
+                                                    <h3><img src="assets/images/services/Civil-2.jpg" alt="">
+                                                    </h3>
+                                                </div>
+                                                <div>
+                                                    <h3><img src="assets/images/services/Civil-3.jpg" alt="">
+                                                    </h3>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class='carslider d-flex'>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5"  data-aos="fade-up" data-aos-delay='100'>
-                                            <img src="assets/images/services/Civil-1.jpg" alt=""
-                                                class='tab-image-slider1 image-active'>
-                                        </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5"  data-aos="fade-up" data-aos-delay='300'>
-                                            <img src="assets/images/services/Civil-2.jpg" alt=""
-                                                class='tab-image-slider1'>
-                                        </div>
-                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5"  data-aos="fade-up" data-aos-delay='500'>
-                                            <img src="assets/images/services/Civil-3.jpg" alt=""
-                                                class='tab-image-slider1'>
-                                        </div>
+                                        <div class="slider slider-nav">
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/Civil-1.jpg" alt="">
+                                            </div>
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/Civil-2.jpg" alt="">
+                                            </div>
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/Civil-3.jpg" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -87,17 +91,17 @@
                     </div>
 
                     <div class="col-lg-6 col-md-6 col-12 mb-60 mb-sm-50 mb-xs-40">
-                        <div class="  ml-20"  >
+                        <div class="  ml-20">
                             <div class=" pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-paint"></i></div> -->
                                 <div class="content ">
-                                    <div class="single-address mb-30" >
-                                        <ul >
+                                    <div class="single-address mb-30">
+                                        <ul>
                                             <li class="mb-30 vertical-align">
                                                 <div class="row " data-aos="fade-left">
-                                                    <div class="col-12 services-icons" >
+                                                    <div class="col-12 services-icons">
                                                         <div class="icon-style1"><img
-                                                                src="assets/images/services/Civil.svg" alt="" >
+                                                                src="assets/images/services/Civil.svg" alt="">
 
                                                         </div>
                                                         <h1 class='para-style1'>Civil Structural
@@ -111,8 +115,6 @@
                                                             in their surroundings.</p>
                                                     </div>
                                                 </div>
-
-
                                             </li>
                                         </ul>
                                     </div>
@@ -143,7 +145,7 @@
 
                                                         </div>
                                                     </div>
-                                                    <div class="col-12 pt-30 text-right pr-50" >
+                                                    <div class="col-12 pt-30 text-right pr-50">
                                                         <p>We build sturdy and environmental friendly
                                                             properties which not only satisfy the needs
                                                             of the customers but also make them feel
@@ -162,25 +164,30 @@
                             <div class=" pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
                                 <div class="content2">
-
-                                    <div class="row">
-                                        <div class="col-12 tab-image6"  data-aos="fade-up" >
-                                            <img src="assets/images/services/Waterproofing1.jpg" alt="">
+                                <div class="row ">
+                                        <div class="col-12 tab-image4" data-aos="fade-up">
+                                            <div class="slider slider-single">
+                                                <div>
+                                                    <img src="assets/images/services/Waterproofing1.jpg" alt="">
+                                                </div>
+                                                <div>
+                                                    <h3><img src="assets/images/services/Waterproofing2.jpg" alt="">
+                                                    </h3>
+                                                </div>
+                                                <div>
+                                                    <h3><img src="assets/images/services/Waterproofing3.jpg" alt="">
+                                                    </h3>
+                                                </div>
+                                            </div>
                                         </div>
-                                      <div class="carslider2 d-flex">
-                                      <div class="col-4 tab-image5 pt-5 pb-5 pr-5"  data-aos="fade-up" data-aos-delay='100'>
-                                            <img src="assets/images/services/Waterproofing1.jpg" alt=""
-                                                class='tab-image-slider5 image-active'>
+                                        <div class="slider slider-nav">
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/Waterproofing1.jpg" alt="">
+                                            </div>
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/Waterproofing2.jpg" alt="">
+                                            </div>
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/Waterproofing3.jpg" alt="">
+                                            </div>
                                         </div>
-                                        <div class="col-4 tab-image5 pt-5 pb-5 pl-5 pr-5"  data-aos="fade-up" data-aos-delay='300'>
-                                            <img src="assets/images/services/Waterproofing2.jpg" alt=""
-                                                class='tab-image-slider5'>
-                                        </div>
-                                        <div class="col-4 tab-image5  pt-5 pb-5 pl-5"  data-aos="fade-up" data-aos-delay='500'>
-                                            <img src="assets/images/services/Waterproofing3.jpg" alt=""
-                                                class='tab-image-slider5'>
-                                        </div>
-                                      </div>
                                     </div>
                                 </div>
                             </div>
@@ -197,19 +204,29 @@
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
                                 <div class="content2">
 
-                                    <div class="row">
+                                <div class="row ">
                                         <div class="col-12 tab-image4" data-aos="fade-up">
-                                            <img src="assets/images/services/RCC1.jpg" alt="">
+                                            <div class="slider slider-single">
+                                                <div>
+                                                    <img src="assets/images/services/RCC1.jpg" alt="">
+                                                </div>
+                                                <div>
+                                                    <h3><img src="assets/images/services/Rcc2.jpg" alt="">
+                                                    </h3>
+                                                </div>
+                                                <div>
+                                                    <h3><img src="assets/images/services/Rcc3.jpg" alt="">
+                                                    </h3>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5" data-aos="fade-up" data-aos-delay='100'>
-                                            <img src="assets/images/services/RCC1.jpg" alt=""
-                                                class='tab-image-slider1 image-active'>
-                                        </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5" data-aos="fade-up" data-aos-delay='300'>
-                                            <img src="assets/images/services/Rcc2.jpg" alt="" class='tab-image-slider1'>
-                                        </div>
-                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5" data-aos="fade-up" data-aos-delay='500'>
-                                            <img src="assets/images/services/Rcc3.jpg" alt="" class='tab-image-slider1'>
+                                        <div class="slider slider-nav">
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/RCC1.jpg" alt="">
+                                            </div>
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/Rcc2.jpg" alt="">
+                                            </div>
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/Rcc3.jpg" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -295,21 +312,29 @@
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
                                 <div class="content2">
 
-                                    <div class="row">
-                                        <div class="col-12 tab-image4"  data-aos="fade-up">
-                                            <img src="assets/images/services/PLASTER-1.jpg" alt="">
+                                <div class="row ">
+                                        <div class="col-12 tab-image4" data-aos="fade-up">
+                                            <div class="slider slider-single">
+                                                <div>
+                                                    <img src="assets/images/services/PLASTER-1.jpg" alt="">
+                                                </div>
+                                                <div>
+                                                    <h3><img src="assets/images/services/PLASTER-2.jpg" alt="">
+                                                    </h3>
+                                                </div>
+                                                <div>
+                                                    <h3><img src="assets/images/services/PLASTER-3.jpg" alt="">
+                                                    </h3>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5"  data-aos="fade-up" data-aos-delay='100'>
-                                            <img src="assets/images/services/PLASTER-1.jpg" alt=""
-                                                class='tab-image-slider1 image-active'>
-                                        </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5"  data-aos="fade-up" data-aos-delay='300'>
-                                            <img src="assets/images/services/PLASTER-2.jpg" alt=""
-                                                class='tab-image-slider1'>
-                                        </div>
-                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5"  data-aos="fade-up" data-aos-delay='500'>
-                                            <img src="assets/images/services/PLASTER-3.jpg" alt=""
-                                                class='tab-image-slider1'>
+                                        <div class="slider slider-nav">
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/PLASTER-1.jpg" alt="">
+                                            </div>
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/PLASTER-2.jpg" alt="">
+                                            </div>
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/PLASTER-3.jpg" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -326,22 +351,29 @@
                             <div class=" pl-0 pr-0">
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
                                 <div class="content2">
-
-                                    <div class="row">
-                                        <div class="col-12 tab-image4"  data-aos="fade-up">
-                                            <img src="assets/images/services/PLUMBING-1.jpg" alt="">
+                                <div class="row ">
+                                        <div class="col-12 tab-image4" data-aos="fade-up">
+                                            <div class="slider slider-single">
+                                                <div>
+                                                    <img src="assets/images/services/PLUMBING-1.jpg" alt="">
+                                                </div>
+                                                <div>
+                                                    <h3><img src="assets/images/services/PLUMBING-2.jpg" alt="">
+                                                    </h3>
+                                                </div>
+                                                <div>
+                                                    <h3><img src="assets/images/services/PLUMBING-3.jpg" alt="">
+                                                    </h3>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5" data-aos="fade-up" data-aos-delay='100'>
-                                            <img src="assets/images/services/PLUMBING-1.jpg" alt=""
-                                                class='tab-image-slider1 image-active'>
-                                        </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5" data-aos="fade-up" data-aos-delay='300'>
-                                            <img src="assets/images/services/PLUMBING-2.jpg" alt=""
-                                                class='tab-image-slider1'>
-                                        </div>
-                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5" data-aos="fade-up" data-aos-delay='500'>
-                                            <img src="assets/images/services/PLUMBING-3.jpg" alt=""
-                                                class='tab-image-slider1'>
+                                        <div class="slider slider-nav">
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/PLUMBING-1.jpg" alt="">
+                                            </div>
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/PLUMBING-2.jpg" alt="">
+                                            </div>
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/PLUMBING-3.jpg" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -432,21 +464,29 @@
                                 <!-- <div class="icon"><i class="pe-7s-home"></i></div> -->
                                 <div class="content2">
 
-                                    <div class="row" id='slider5'>
+                                <div class="row ">
                                         <div class="col-12 tab-image4" data-aos="fade-up">
-                                            <img src="assets/images/services/Turnkey1.jpg" alt="">
+                                            <div class="slider slider-single">
+                                                <div>
+                                                    <img src="assets/images/services/Turnkey1.jpg" alt="">
+                                                </div>
+                                                <div>
+                                                    <h3><img src="assets/images/services/Turnkey2.jpg" alt="">
+                                                    </h3>
+                                                </div>
+                                                <div>
+                                                    <h3><img src="assets/images/services/Turnkey3.jpg" alt="">
+                                                    </h3>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pr-5" data-aos="fade-up" data-aos-delay='100'>
-                                            <img src="assets/images/services/Turnkey1.jpg" alt=""
-                                                class='tab-image-slider1 image-active'>
-                                        </div>
-                                        <div class="col-4 tab-image3 pt-5 pb-5 pl-5 pr-5" data-aos="fade-up" data-aos-delay='300'>
-                                            <img src="assets/images/services/Turnkey2.jpg" alt=""
-                                                class='tab-image-slider1'>
-                                        </div>
-                                        <div class="col-4 tab-image3  pt-5 pb-5 pl-5" data-aos="fade-up" data-aos-delay='500'>
-                                            <img src="assets/images/services/Turnkey3.jpg" alt=""
-                                                class='tab-image-slider1'>
+                                        <div class="slider slider-nav">
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/Turnkey1.jpg" alt="">
+                                            </div>
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/Turnkey2.jpg" alt="">
+                                            </div>
+                                            <div class='pt-5 pr-5'><img src="assets/images/services/Turnkey3.jpg" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -456,35 +496,35 @@
                 </div>
                 <!--turnkey-->
 
-                        <!--Our Mission section start-->
-        <div class="our-mission-section section bg-gray-two pt-0 pt-sm-0 pt-xs-0">
-            <div class="container pl-0 pr-0">
+                <!--Our Mission section start-->
+                <div class="our-mission-section section bg-gray-two pt-0 pt-sm-0 pt-xs-0">
+                    <div class="container pl-0 pr-0">
 
-                <div class="row no-gutters">
-                    <div class="col-lg-6" data-aos="fade-right">
-                        <div class="home-blog-wrap">
-                            <div class="content text-start max-width mb-10">
-                                <h2>You see in Dreams,
-                                    & We make it Happen!</h2>
-                                    <p>Bhagirathi Construction Company is a
-                                        trusted name in the field of construction
-                                        and aims to provide high quality services</p>
+                        <div class="row no-gutters">
+                            <div class="col-lg-6" data-aos="fade-right">
+                                <div class="home-blog-wrap">
+                                    <div class="content text-start max-width mb-10">
+                                        <h2>You see in Dreams,
+                                            & We make it Happen!</h2>
+                                        <p>Bhagirathi Construction Company is a
+                                            trusted name in the field of construction
+                                            and aims to provide high quality services</p>
                                         <div><a href="projects.php" class="btn btn-orange">See More</a></div>
+                                    </div>
+
+                                </div>
                             </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="thumb" data-aos="fade-left">
-                            <img src="assets/images/main_image/Images/3rd Section img.png" alt="">
-                        </div>
-                    </div>
+                            <div class="col-lg-6">
+                                <div class="thumb" data-aos="fade-left">
+                                    <img src="assets/images/main_image/Images/3rd Section img.png" alt="">
+                                </div>
+                            </div>
 
+                        </div>
+
+                    </div>
                 </div>
-
-            </div>
-        </div>
-        <!--Our Mission section end-->
+                <!--Our Mission section end-->
 
             </div>
         </div>

@@ -312,7 +312,6 @@
                             <div><img src="assets/images/main_image/Images/Hero Image.png" alt=""></div>
                             <div><img src="http://via.placeholder.com/242x300/ffffff/000000" alt=""></div>
                             <div><img src="assets/images/main_image/Images/Hero Image.png" alt=""></div>
-
                         </div>
                     </div>
                 </div>
@@ -339,9 +338,9 @@
                                         </div>
                                         <div class="col-4 tab-image2 ">
                                             <img src="assets/images/main_image/Images/service1.png" alt="" class='tab-image-slider image-active image_1'>
-                                            <img src="assets/images/main_image/Images/service1.png" alt="" class='tab-image-slider image_2'>
-                                            <img src="assets/images/main_image/Images/service1.png" alt="" class='tab-image-slider image_3'>
-                                            <img src="assets/images/main_image/Images/service1.png" alt="" class='tab-image-slider image_4'>
+                                            <img src="assets/images/main_image/Images/service2.png" alt="" class='tab-image-slider image_2'>
+                                            <img src="assets/images/main_image/Images/service3.png" alt="" class='tab-image-slider image_3'>
+                                            <img src="assets/images/main_image/Images/service4.png" alt="" class='tab-image-slider image_4'>
                                         </div>
                                     </div>
                                 </div>

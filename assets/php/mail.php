@@ -34,7 +34,7 @@
         $email_headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
         $email_headers = "From: $name <$email>" ;
         $email_headers='X-Mailer: php/'.phpversion();
-        // $returnpath = '-f dkeshari094@gmail.com';
+        // $returnpath = '-f info@bhagirati.com';
 
         // Send the email.
         if (mail($recipient, $subject, $email_content, $email_headers,"-fwebmaster@{$_SERVER['SERVER_NAME']}")) {

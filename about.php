@@ -33,7 +33,7 @@
                                 <div class="row ">
                                     <div class="col-lg-5 col-md-5 col-12 col-sm-12">
                                         <!--Hero Content start-->
-                                        <div class="hero-content-2">
+                                        <div class="hero-content-2" data-aos="fade-right">
                                             <h2>We Are The Trusted Name In The Field Of Construction
                                             </h2>
                                         </div>

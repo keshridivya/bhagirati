@@ -11,6 +11,9 @@
             height: 100%;
             background: linear-gradient(to right, #254b70, transparent, transparent);
         }
+        /* .slider-nav .slick-track{
+            transform:translate3d(0px,0px,0px) !important
+        } */
     </style>
 </head>
 
@@ -32,7 +35,7 @@
                                 <div class="row ">
                                     <div class="col-lg-7 col-md-7 col-12">
                                         <!--Hero Content start-->
-                                        <div class="hero-content-2">
+                                        <div class="hero-content-2" data-aos="fade-right">
                                             <h2 class='text-white'>We Design & Construct High Quality
                                                 Residential And Commercial
                                                 Properties</h2>

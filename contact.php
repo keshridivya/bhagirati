@@ -50,8 +50,8 @@
                                     <div class="col-lg-5 col-md-5 col-12 col-sm-12">
                                         <!--Hero Content start-->
                                         <div class="hero-content-2 content">
-                                            <h2>Let’s Work Together </h2>
-                                            <p class='text-black'><strong>Please Share Your Contact Details Our Customer
+                                            <h2 data-aos="fade-right">Let’s Work Together </h2>
+                                            <p class='text-black' data-aos="fade-left"><strong>Please Share Your Contact Details Our Customer
                                                     Executive will respond you as soon as possible</strong></p>
                                         </div>
                                         <!--Hero Content end-->
